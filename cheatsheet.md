@@ -1,33 +1,17 @@
 # Cuttle Cheat Sheet
 
-## Goal
+## Rules
 
-Be the first to accumulate 21 or more points worth of point cards.
-
-## Setup
-
-Decide which player will take the first turn. This player is dealt a hand of 5
-cards, and the other player is dealt a hand of 6 cards.
-
-## On each turn
-
-On each turn, you may do **one** of the following:
-
-- Draw a card
-- Play a card
-- Pass (only if the draw pile runs out)
-
-## Point cards
-
-- Aces are worth 1 point
-- Number cards (2-10) are worth their face value
-- Jack, Queen, and King are not point cards
-
-## Scuttles
-
-- To scuttle, your card must have a higher point value
-- Or, it may have the same point value, but a higher suit
-- The suit rank is ♣️ < ♦️ < ♥️ < ♠️
+- 🏆️  Be the first to accumulate 21 or more points worth of point cards.
+- ✅  The first player is dealt 5 cards and the second player is dealt 6 cards.
+- ⏱️  On each turn you may draw a card, play a card, or pass (if the draw pile
+  runs out).
+- 🃏  The three card types are **point cards**, **oneshot effect cards**, and
+  **permanent effect cards**.
+- 1️⃣  Aces are worth 1 point. Number cards are worth their face value.
+- ⚔️  You may scuttle an opponent's point card by playing a higher card or an equal
+  card with a higher suit.
+- 👑  The suit rank is ♣️ < ♦️ < ♥️ < ♠️.
 
 ## Oneshot effects
 
