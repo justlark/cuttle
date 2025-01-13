@@ -30,7 +30,7 @@ On each turn, you may do **one** of the following:
 - Play a card from your hand
 - Pass (do nothing), but only if the draw pile is empty
 
-ℹ️ If there are three consecutive passes, the game ends and neither player wins.
+ℹ️  If there are three consecutive passes, the game ends and neither player wins.
 
 There are three categories of cards in Cuttle: **point cards**, **oneshot
 effect cards**, and **permanent effect cards**.
@@ -77,7 +77,7 @@ Permanent effect cards are placed face-up on the table in front of you like
 point cards, except they do not count toward your 21-point goal. Instead, they
 have an effect which lasts as long as the card is on the table.
 
-ℹ️ When you place permanent effect cards on the table, turn them sideways to
+ℹ️  When you place permanent effect cards on the table, turn them sideways to
 distinguish them from point cards.
 
 | Card | Effect |
