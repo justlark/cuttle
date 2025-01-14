@@ -19,7 +19,7 @@ The rest of the deck is placed face-down to form the **draw pile**.
 
 During the game, each player plays cards from their hand, placing them face-up
 on the table in front of them. Various actions cause cards to be discarded.
-Discarded cards are stacked face-up next to the draw pile to form the **discard
+Discarded cards are stacked face-up next to the draw pile to form the **scrap
 pile**.
 
 ## Play
@@ -49,7 +49,7 @@ than the card you want to scuttle, or equal in value with a higher suit.
 The rank order of suits is ♣️ < ♦️ < ♥️ < ♠️ (clubs, diamonds, hearts, spades).
 
 To scuttle an opponent's card, place your card on top of it and place both in
-the discard pile.
+the scrap pile.
 
 ### Oneshot effect cards
 
@@ -59,12 +59,12 @@ they're played; they are not placed on the table in front of you.
 
 | Card | Effect |
 | --- | --- |
-| Ace | Discard all point cards on the table—both you and your opponents'. |
-| 2 | Discard any permanent effect card on the table **OR** block a oneshot effect card played by your opponent. Blocking a oneshot effect card is the only case in which you can play a card during your opponent's turn. Note that a **2** *can* be used to block an opponent's **2**. |
-| 3 | Look through the discard pile and add a card of your choice to your hand. |
+| Ace | Scrap all point cards on the table—both you and your opponents'. |
+| 2 | Scrap any permanent effect card on the table **OR** block a oneshot effect card played by your opponent. Blocking a oneshot effect card is the only case in which you can play a card during your opponent's turn. Note that a **2** *can* be used to block an opponent's **2**. |
+| 3 | Rummage through the scrap pile and add a card of your choice to your hand. |
 | 4 | Make your opponent discard two cards of their choice from their hand, showing them to you before they discard them. |
 | 5 | Draw two cards from the draw pile and add them to your hand. |
-| 6 | Discard all permanent effect cards on the table—both yours and your opponents'. |
+| 6 | Scrap all permanent effect cards on the table—both yours and your opponents'. |
 | 7 | Draw a card and play it immediately. If you draw a card that cannot be played immediately, it is discarded. Otherwise, it *must* be played. |
 | 9 | Return one permanent effect card on the table to its owner's hand. Your opponent must wait at least one turn before playing that card again. |
   
@@ -83,6 +83,6 @@ distinguish them from point cards.
 | Card | Effect |
 | --- | --- |
 | 8 | Your opponent must play with their hand exposed, showing you all of their cards. |
-| Jack | Steal a point card from your opponent's side of the table and move it to your side. Place the **Jack** on top of the point card to note that it was stolen. A second jack can be placed on top of the point card to steal it back, which can happen any number of times. If a point card is discarded, such as through a scuttle, any jacks on top of it are also discarded. |
-| Queen | Protect your point cards from **2**, **9**, and **Jack**. Queens do not protect against scuttling. Since queens do not protect themselves or other queens, you can still use a **2** to discard an opponent's queen. |
+| Jack | Steal a point card from your opponent's side of the table and move it to your side. Place the **Jack** on top of the point card to note that it was stolen. A second jack can be placed on top of the point card to steal it back, which can happen any number of times. If a point card is scrapped, either by an effect or by scuttling, any jacks on top of it are also scrapped. |
+| Queen | Protect your point cards from **2**, **9**, and **Jack**. Queens do not protect against scuttling. Since queens do not protect themselves or other queens, you can still use a **2** to scrap an opponent's queen. |
 | King | The number of point you need to win the game is reduced to 14, 10, 7, or 5, depending on how many kings are on your side of the table. |
