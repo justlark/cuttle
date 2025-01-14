@@ -12,6 +12,8 @@
 - ⚔️  You may scuttle an opponent's point card by playing a higher card or an equal
   card with a higher suit.
 - 👑  The suit rank is ♣️ < ♦️ < ♥️ < ♠️.
+- 🗑️  Oneshot effect cards are discarded immediately.
+- 🔁  Permanent effect cards remain on the table until removed.
 
 ## Oneshot effects
 
