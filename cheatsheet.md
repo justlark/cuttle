@@ -19,12 +19,12 @@
 
 | Card | Effect |
 | --- | --- |
-| Ace | Discard all point cards on the table. |
-| 2 | Discard any permanent effect card on the table **OR** block a oneshot effect card. |
-| 3 | Choose any card from the discard pile. |
+| Ace | Scrap all point cards on the table. |
+| 2 | Scrap any permanent effect card on the table **OR** block a oneshot effect card. |
+| 3 | Choose any card from the scrap pile. |
 | 4 | Make your opponent discard two cards of their choice. |
 | 5 | Draw two cards. |
-| 6 | Discard all permanent effect cards on the table. |
+| 6 | Scrap all permanent effect cards on the table. |
 | 7 | Draw a card and play it immediately. |
 | 9 | Return one permanent effect card to its owner. |
 
