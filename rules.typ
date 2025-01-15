@@ -11,12 +11,12 @@
 ]
 #show heading.where(level: 1): it => [
   #set align(center)
-  #set text(weight: "bold", fill: accent-color)
-  #pad(bottom: 1em, underline(stroke: 2pt, offset: 3pt)[#it.body])
+  #set text(size: 16pt, weight: "extrabold", fill: accent-color)
+  #pad(bottom: 1em, underline(stroke: 2.5pt, offset: 3pt)[#it.body])
 ]
 #show table: set block(breakable: false)
 
-= Cuttle Rules
+= How to play Cuttle
 
 Cuttle is a combat card game for two players. It's played with a standard
 52-card deck without any jokers.
