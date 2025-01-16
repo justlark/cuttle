@@ -3,7 +3,7 @@
 
   #set page(paper: "us-letter", margin: 0.75in)
   #set text(
-    font: ("Noto Sans", "Noto Color Emoji"),
+    font: ("Twitter Color Emoji", "Noto Sans"),
     size: 10pt
   )
 
@@ -23,7 +23,7 @@
 
   #show <lead>: it => [
     #align(center)[
-      #block(width: 30em)[
+      #box(width: 30em)[
         #it
       ]
     ]
