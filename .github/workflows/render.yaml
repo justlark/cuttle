@@ -1,0 +1,44 @@
+name: "Render"
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  render:
+    name: "Render"
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        file: ["rules", "cheatsheet"]
+    steps:
+      - name: "Checkout repo"
+        uses: actions/checkout@v4
+
+      - name: "Update apt"
+        run: sudo apt-get update
+
+      - name: "Install font"
+        run: sudo apt-get install fonts-noto
+
+      - name: "Download emoji font"
+        run: curl -L -o ./fonts-twemoji.deb https://github.com/13rac1/twemoji-color-font/releases/download/v15.1.0/fonts-twemoji-svginot_15.1.0-1_all.deb
+
+      - name: "Install emoji font"
+        run: sudo apt-get install ./fonts-twemoji.deb
+
+      - name: "Download Typst"
+        run: curl -L -o typst.tar.xz https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz
+
+      - name: "Extract Typst"
+        run: tar -xf typst.tar.xz
+
+      - name: "Move Typst binary"
+        run: mv ./typst-x86_64-unknown-linux-musl/typst ./typst
+
+      - name: "Compile"
+        run: ./typst compile ./${{ matrix.file }}.typ
+
+      - name: "Upload PDFs"
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.file }}.pdf
+          path: ./${{ matrix.file }}.pdf
