@@ -17,7 +17,7 @@
     #pad(y: 0.3em)[#it.body]
   ]
   #show heading.where(level: 3): it => [
-    #set text(size: 10pt, weight: "bold", fill: accent-color)
+    #set text(size: 11pt, weight: "bold", fill: accent-color)
     #pad(y: 0.3em)[#it.body]
   ]
 
