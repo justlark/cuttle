@@ -9,14 +9,20 @@
   #set text(weight: "regular", fill: accent-color)
   #pad(y: 0.3em)[#it.body]
 ]
-#show heading.where(level: 1): it => [
+#show <title>: it => [
   #set align(center)
   #set text(size: 16pt, weight: "extrabold", fill: accent-color)
   #pad(bottom: 1em, underline(stroke: 2.5pt, offset: 3pt)[#it.body])
 ]
-#show table: set block(breakable: false)
+#show <card-effects>: set block(breakable: false)
+#show <card-effects>: set table(
+  columns: 2,
+  align: (right, left),
+  stroke: none,
+  row-gutter: 0.25em,
+)
 
-= How to play Cuttle
+= How to play Cuttle <title>
 
 Cuttle is a combat card game for two players. It's played with a standard
 52-card deck without any jokers.
@@ -77,9 +83,6 @@ cards. Oneshot effect cards are discarded immediately after they're played;
 they are not placed on the table in front of you.
 
 #table(
-  columns: 2,
-  align: (center + horizon, left),
-  stroke: none,
   table.header([*Card*], [*Effect*]),
   table.hline(),
   [*Ace*],
@@ -104,7 +107,7 @@ they are not placed on the table in front of you.
   [*9*],
   [Return one permanent effect card on the table to its owner's hand. Your
   opponent must wait at least one turn before playing that card again.],
-)
+) <card-effects>
 
 === Permanent effect cards
 
@@ -118,9 +121,6 @@ have an effect which lasts as long as the card is on the table.
 sideways to distinguish them from point cards.
 
 #table(
-  columns: 2,
-  align: (center + horizon, left),
-  stroke: none,
   table.header([*Card*], [*Effect*]),
   table.hline(),
   [*8*],
@@ -139,4 +139,4 @@ sideways to distinguish them from point cards.
   [*King*],
   [The number of point you need to win the game is reduced to 14, 10, 7, or 5,
   depending on how many kings are on your side of the table.],
-)
+) <card-effects>
