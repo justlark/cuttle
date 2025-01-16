@@ -3,8 +3,8 @@
 Cuttle is a combat card game for two players. It's played with a standard
 52-card deck without any jokers.
 
-This repo documents the [rules of Cuttle](./rules.md) and also provides a
-[cheatsheet](./cheatsheet.md) for quick reference during play.
+This repo documents the rules of Cuttle and also provides a cheatsheet for
+quick reference during play.
 
 This rulebook was adapted from [this
 page](https://www.pagat.com/combat/cuttle.html), which was adapted from Richard
