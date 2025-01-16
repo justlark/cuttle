@@ -3,8 +3,12 @@
 
 = How to play Cuttle <title>
 
-Cuttle is a combat card game for two players. It's played with a standard
-52-card deck without any jokers. <lead>
+#align(center)[
+  #box(width: 30em)[
+    Cuttle is a combat card game for two players. It's played with a standard
+    52-card deck without any jokers.
+  ]
+]
 
 == Overview
 

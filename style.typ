@@ -21,14 +21,6 @@
     #pad(y: 0.3em)[#it.body]
   ]
 
-  #show <lead>: it => [
-    #align(center)[
-      #box(width: 30em)[
-        #it
-      ]
-    ]
-  ]
-
   #show <card-effects>: set block(breakable: false)
   #show <card-effects>: set table(
     columns: 2,

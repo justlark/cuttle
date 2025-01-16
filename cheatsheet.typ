@@ -3,7 +3,11 @@
 
 = Cuttle cheatsheet <title>
 
-A cheatsheet for the combat card game Cuttle, to reference during play. <lead>
+#align(center)[
+  #box(width: 30em)[
+    A cheatsheet for the combat card game Cuttle, to reference during play.
+  ]
+]
 
 == Rules
 
